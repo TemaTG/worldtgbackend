@@ -1,0 +1,19 @@
+{
+  "name": "worldtg-backend",
+  "version": "1.0.0",
+  "description": "Backend and worker for WorldTG Mini App",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "worker": "node src/worker.js",
+    "dev": "nodemon src/index.js",
+    "dev:worker": "nodemon src/worker.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.0",
+    "express": "^4.19.2",
+    "pg": "^8.11.2"
+  }
+}
